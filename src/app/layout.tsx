@@ -12,9 +12,9 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html>
       <body>
-        {/* <Navbar /> */}
+        <Navbar />
         <main>{children}</main>
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
